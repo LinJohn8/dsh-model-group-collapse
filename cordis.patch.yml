@@ -1,0 +1,6 @@
+# Insert the plugin row so the Loader mounts the package.
+# The Client half registers lazily through window.__ModuleLoader__ (see client.js);
+# this Host-side row exists so the bundle appears in the plugin inventory.
+- insert:
+    - id: model-group-collapse
+      name: 'dsh-model-group-collapse'

@@ -1,0 +1,42 @@
+{
+  "name": "dsh-model-group-collapse",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness model selector with collapsible provider groups: providers stay collapsed behind a triangle toggle, and only the provider of the current model starts expanded. 模型选择器厂商分组折叠插件：厂商默认收起，仅当前模型所属厂商展开，三角箭头切换。",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "client-plugin",
+    "model-selector",
+    "web-ui"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

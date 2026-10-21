@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Collapsible Provider Groups",
+    "description": "Model selector whose provider groups fold behind a triangle toggle: all providers start collapsed, and only the provider of the current model is expanded."
+  }
+}

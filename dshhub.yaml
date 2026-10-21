@@ -1,0 +1,17 @@
+name: dsh-model-group-collapse
+services:
+  - dsh
+display:
+  title: 厂商分组折叠 (Collapsible Provider Groups)
+  summary: >
+    模型选择器按厂商分组折叠：默认所有厂商收起，仅当前模型所属厂商展开，
+    三角箭头切换展开状态。Model selector whose provider groups fold behind a
+    triangle toggle; only the current model's provider starts expanded.
+categories:
+  - Web UI
+  - 模型选择
+surfaces:
+  - web
+compatibility:
+  dsh: ">=0.2.1-rc.2"
+permissions: {}

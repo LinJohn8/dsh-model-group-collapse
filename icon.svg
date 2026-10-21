@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Original artwork: a model "chip" with a collapsible group caret -->
+  <rect x="8" y="14" width="48" height="36" rx="10" fill="none" stroke="#247bbf" stroke-width="4"/>
+  <path d="M20 26h24" stroke="#247bbf" stroke-width="4" stroke-linecap="round"/>
+  <path d="M20 38l8-6 8 6 8-6" fill="none" stroke="#1a9e5c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 34l6 5-6 5z" fill="#247bbf"/>
+</svg>
